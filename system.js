@@ -42,7 +42,6 @@ OneItem = function(prefix, id) {
 		items[prefix].push(id);
 	
 	for (var item_id of items[prefix])
-	{
 		if (item_id != id)
 		{
 			var item_button = document.getElementById(`btn_${prefix}_${item_id}`);
@@ -51,7 +50,6 @@ OneItem = function(prefix, id) {
 			var item = document.getElementById(`${prefix}_${item_id}`);
 			item.classList.add("hidden");
 		}
-	}	
 }
 
 // Translation system
