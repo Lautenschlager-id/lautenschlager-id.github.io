@@ -2,9 +2,9 @@ function Tab(element) {
 	var expand = element.style.width == "" || element.style.width == "70px";
 	
 	setTimeout(function(){
-        element.style.transitionDuration = '1.5s';
-        element.style.width = expand ? "110px" : "70px";
-    });
+		element.style.transitionDuration = '1.5s';
+		element.style.width = expand ? "110px" : "70px";
+	});
 	
 	ToggleContainer(element, expand);
 }
