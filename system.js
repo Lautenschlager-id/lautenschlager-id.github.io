@@ -83,7 +83,7 @@ const Translations = {
 		"prj_3_2": "The game is classified as a Real-Time Strategy (RTS) Indie game, because, besides the fact it's a Tower Defense (TD) game, few monetary resources were needed for its development. This game was developed in one week.",
 	},
 	"BR": {
-		"me_0": "Eu sou o Tainã, também conhecido por Tai. Atualmente estudo Ciência da Computação no Brasil e depois de concluir o curso pretendo ir para o Canadá para mestrar em Física e Astrofísica!",
+		"me_0": "Me chamo Tainã, também conhecido por Tai. Atualmente estudo Ciência da Computação no Brasil e depois de concluir o curso pretendo ir para o Canadá para mestrar em Física e Astrofísica!",
 		"me_1": "Este é meu portólio. Aqui você pode encontrar as linguagens de programação que posso utilizar decentemente, também meus maiores projetos e os idiomas que falo hoje em dia.",
 		"me_2": "Navegue nas abas abaixo para conhecer mais sobre mim e sobre minhas habilidades.",
 		
