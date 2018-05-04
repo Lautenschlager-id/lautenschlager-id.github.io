@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	background-color: #00000F;
+	color: #E3E0F3;
+	font-family: "Concert One";
+	margin: 50px;
+}
+p {
+	text-indent: 10px;
+}
+a, a[type="sub"] {
+	color: #29B3CC;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+}
+a[type="sub"] {
+	color: #77BBFF;
+}
+
+.center {
+	margin: 15px 0px;
+	text-align: center;
+}
+.absolute {
+	position: absolute;
+}
+.squared {
+	border-radius: 10px;
+}
+.half-squared {
+	border-radius: 6px;
+}
+.single-line {
+	display: flex;
+	align-content: center;
+}
+.single-line img {
+	width: auto;
+	height: auto;
+}
+.icon > img {
+	height: 50px;
+	margin-right: 10px;
+	width: 50px;
+}
+
+.hidden {
+	display: flex;
+	background-color: transparent;
+	color: transparent;
+	font-size: 0;
+	height: 0;
+	opacity: 0;
+	width: 0;
+	
+	transition:
+		background-color 1s,
+		color .8s,
+		font-size .9s,
+		height .8s,
+		opacity .7s,
+		width .8s;
+}
+.hidden img {
+	width: 0px;
+	height: 0px;
+}
+.visible {
+	font-size: 15px;
+	height: auto;
+	max-width: 800px;
+	min-width: 150px;
+	opacity: 1;
+	width: max-content;
+	
+	transition:
+		font-size .9s,
+		height .8s,
+		opacity .7s,
+		width .8s;
+}
+
+.tab {
+	border-radius: 50%;
+	cursor: pointer;
+	margin-bottom: 50px;
+	margin-right: 10px;
+	width: 70px;
+}
+
+.container {
+	background-color: #4E6D8B;
+	color: #F9F7F7;
+	padding: 10px;
+	margin: -100px 120px -20px;
+	font-family: "Roboto";
+	text-align: justify;
+	
+	transition:
+		background-color 1s,
+		color .8s,
+		margin .4s;
+}
+.sub-container {
+	display: block;
+	background-color: #82A0C1;
+	color: #FFFFFF;
+	padding: 10px 10px;
+	font-family: "Lato";
+	
+	text-align: justify;
+}
+
+.graphic {
+	align-items: center;
+	background-color: #B4D0EE;
+	color: #4E6D8B;
+	display: flex;
+	height: 55px;
+	margin: 5px;
+}
+.graphic > img {
+	height: 50px;
+	padding: 2px 10px 2px 4px;
+	width: 50px;
+}
+
+.button {
+	background-color: #20B0C7;
+	border: none;
+	border-radius: 4px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 16px;
+	height: 40px;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-decoration: bold;
+	width: auto;
+	
+	transition: background-color .5s;
+	transition-timing-function: ease-in-out;
+}
+.button:hover {
+	background-color: #776CC9;
+}
+
+.img-button-collection img {
+	background-color: #20B0C7;
+	border: 2px solid #000000;
+	padding: 5px;
+}
+.img-button-collection img:hover {
+	border: 2px solid #63FF6D;
+}

@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<script src="system.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="layout.css">
+	</head>
+	
+	<body>
+		<!--Tags-->
+		<div id="1">
+			<img onclick="Tab(this);" src="Content/tab_1.jpg" class="tab">
+			<font size="15px" class="absolute">Lautenschlager</font>
+			<div class="half-squared hidden container">
+				<p>I am Tainã, also known as Tai. I am currently studying Computer Science in Brazil, and after concluding the course I intend to go to Canada to master Physics and Astrophysics!</p>
+				<p>I love helping! Feel free to ask me anything about programming, physics and mathematics or astronomy!</p>
+				<p>Go through the pages of this website to know more about my skills.</p>
+			</div>
+		</div>
+
+		<br><br><br><br><br>
+		
+		<div id="2">
+			<img onclick="Tab(this);" src="Content/tab_2.jpg" class="tab">
+			<font size="15px" class="absolute">Programming Languages</font>
+			<div class="half-squared hidden container">
+				<!--width *= 4 + 100-->
+				<div class="squared graphic" style="width:calc(100px + 98px * 4);">
+					<img src="Content/lang_lua.png" alt="Lua">
+					<font size="20">98%</font>
+				</div>
+				
+				<div class="squared graphic" style="width:calc(100px + 75px * 4);">
+					<img src="Content/lang_cs.png" alt="C#">
+					<font size="20">75%</font>
+				</div>
+				
+				<div class="squared graphic" style="width:calc(100px + 60px * 4);">
+					<img src="Content/lang_c.png" alt="C">
+					<font size="20">60%</font>
+				</div>
+				
+				<div class="squared graphic" style="width:calc(100px + 40px * 4);">
+					<img src="Content/lang_java.png" alt="Java">
+					<font size="20">40%</font>
+				</div>
+				
+				<div class="squared graphic" style="width:calc(100px + 35px * 4);">
+					<img src="Content/lang_cpp.png" alt="C++">
+					<font size="20">35%</font>
+				</div>
+				
+				<div class="squared graphic" style="width:calc(100px + 15px * 4);">
+					<img src="Content/lang_js.png" alt="JavaScript">
+					<font size="20">15%</font>
+				</div>
+				
+				<div class="squared graphic" style="width:calc(100px + 10px * 4);">
+					<img src="Content/lang_py.png" alt="Python">
+					<font size="20">10%</font>
+				</div>
+			</div>
+		</div>
+
+		<br><br><br><br><br>
+
+		<div id="3">
+			<img onclick="Tab(this);" src="Content/tab_3.png" class="tab">
+			<font size="15px" class="absolute">Projects</font>
+			<div class="half-squared hidden container">
+				<h2>ALL MY PROJECTS ARE OPEN SOURCE!</h2>
+			
+				<div class="center">
+					<img src="Content/github_contributions.png" alt="Github Contributions">
+					<br>
+					More than 7,000 contributions in the last year on <a target="_blank" href="https://github.com/Lautenschlager-id">Github</a>!
+				</div>
+				
+				<div class="center">
+					<img src="Content/pastebin_stats.png" alt="Pastebin Stats">
+					<br>
+					More than 27,000 unique views in the last two years on <a target="_blank" href="https://pastebin.com/u/Bolodefchoco_LUAXML#_=_">Pastebin</a>!
+				</div>
+				
+				<button id="btn_prj_3" type="button" onclick="OneItem('prj', '3');" class="button">Solar System Defense</button>
+				<button id="btn_prj_2" type="button" onclick="OneItem('prj', '2');" class="button">Translator Bot</button>
+				<button id="btn_prj_1" type="button" onclick="OneItem('prj', '1');" class="button">Head Wars</button>
+
+				<div id="prj_3" class="half-squared sub-container hidden">
+					<p>The game <a type="sub" target="_blank" href="">Solar System Defense</a> was developed in C# and is based on several other Tower Defense games, but with a better difficulty system in an environment that constantly excites the player.</p>
+					<p>The aim of the game is not to let the aliens get in the Earth. You have some features to help you with it.</p>
+					<p>The game is classified as a Real-Time Strategy Indie game, because, besides the fact it's a Tower Defense game, few monetary resources were needed for its development. This game was developed in 1 week.</p>
+					
+					<div class="center">
+						<img src="Content/solar-system-defense.gif" alt="Solar System System Gameplay">
+					</div>
+				</div>
+				<div id="prj_2" class="half-squared sub-container hidden">
+					<p>The <strong>Translator bot</strong> has several features, public and private, 50 special and very effective commands to manage more than 45 translators and 100 users.</p>
+					
+					Here are some commands for the public:
+					
+					<div class="center">
+						<img src="Content/translator-bot-cmds.png" alt="Discord Bot - Commands">
+					</div>
+					
+					This is how we receive a request:
+					
+					<div class="center">
+						<img src="Content/translator-bot-request.png" alt="Discord Bot - Request">
+					</div>
+					
+					This is how you receive your translation:
+					
+					<div class="center">
+						<img src="Content/translator-bot-translation.png" alt="Discord Bot - Translation">
+					</div>
+				</div>
+				<div id="prj_1" class="half-squared sub-container hidden">
+					<div class="center">
+						<img src="Content/head-wars.png" alt="Head Wars">
+					</div>
+				
+					<p>The game <a type="sub" target="_blank" href="https://www.4shared.com/s/fGr3-Hslcei">Head Wars</a> was developed in C# and is based on an epic space battle with skills and more frequent enemies with artificial intelligence according to the elapsed time in game.</p>
+					<p>The main idea is to entertain the players with funny teacher (my teachers) faces as characters/enemies, and other stuff like score and skills.</p>
+					<p>The game is classified as an Action Indie game, because, besides the fact it's a Shooter game, few monetary resources were needed for its development, also only two people worked on that: the developer and a volunteer for the graphic drawings.</p>
+					
+					<div class="center">
+						<img src="Content/head-wars.gif" alt="Head Wars Gameplay">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br><br><br><br><br>
+
+		<div id="4">
+			<img onclick="Tab(this);" src="Content/tab_4.png" class="tab">
+			<font size="15px" class="absolute">Idioms</font>
+			<div class="half-squared hidden container">
+				<div class="img-button-collection">
+					<img id="btn_flag_1" class="flag" onclick="OneItem('flag', '1');" src="Content/flag_br.png" alt="Português">
+					<img id="btn_flag_2" class="flag" onclick="OneItem('flag', '2');" src="Content/flag_uk.png" alt="English">					
+					<img id="btn_flag_3" class="flag" onclick="OneItem('flag', '3');" src="Content/flag_es.png" alt="Español">
+					<img id="btn_flag_4" class="flag" onclick="OneItem('flag', '4');" src="Content/flag_de.png" alt="Deutsch">
+					<img id="btn_flag_5" class="flag" onclick="OneItem('flag', '5');" src="Content/flag_fr.png" alt="Français">
+				</div>
+				
+				<div id="flag_1" class="half-squared sub-container hidden">
+					Português é meu idioma nativo.
+				</div>
+				<div id="flag_2" class="half-squared sub-container hidden">
+					English is my second language and I have an advanced level in it.
+					<br>
+					<br>
+					This skill has been improved because of the high school, two courses and an intense communication with people.
+				</div>
+				<div id="flag_3" class="half-squared sub-container hidden">
+					Español es mi tercer lenguaje y tengo un nivel básico de la misma.
+					<br>
+					<br>
+					Habilidad obtenida por medio de la escuela secundaria y comunicación escrita con amigos.
+				</div>
+				<div id="flag_4" class="half-squared sub-container hidden">
+					Deutsch ist mein vierte sprache. Ich kenne nur ein paar Worte.
+				</div>
+				<div id="flag_5" class="half-squared sub-container hidden">
+					J'apprends le Français avec mes amis.
+				</div>
+			</div>
+		</div>
+
+		<br><br><br><br><br>
+
+		<div id="5">
+			<img onclick="Tab(this);" src="Content/tab_5.png" class="tab">
+			<font size="15px" class="absolute">Contact me</font>
+			<div class="half-squared hidden container">
+				<div class="single-line icon">
+					<img src="Content/whatsapp.png"> <h2>+55 011 9 9633-1489</h2>
+				</div>
+				<br>
+				<div class="single-line icon">
+					<img src="Content/facebook.png"> <h2><a target="_blank" href="https://facebook.com/Lautenschlager.id">fb.com/Lautenschlager.id</a></h2>
+				</div>
+				<br>
+				<div class="single-line icon">
+					<img src="Content/instagram.png"> <h2><a target="_blank" href="https://www.instagram.com/lautenschlager.id/">instagram.com/Lautenschlager.id</a></h2>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
