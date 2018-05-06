@@ -97,7 +97,8 @@ font[type="set_lang"] {
 	margin: -100px 120px -20px;
 	font-family: "Roboto";
 	text-align: justify;
-
+}
+.container, .container img {
 	animation-duration: .8s;
 	animation-name: expand;
 }
@@ -187,6 +188,16 @@ font[type="set_lang"] {
 /* KEYFRAMES */
 @keyframes expand {
 	from {
+		background-color: transparent;
+		color: transparent;
+		margin: -70px 0px;
+		font-size: 0;
+		height: 0;
+		width: 0;
+	}
+}
+@keyframes contract { 
+	to {
 		background-color: transparent;
 		color: transparent;
 		margin: -70px 0px;

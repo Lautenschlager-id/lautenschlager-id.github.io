@@ -18,13 +18,36 @@ ToggleContainer = function(element, expand) {
 	{
 		ExpandInfographic(element.parentNode.getElementsByClassName("infographic"));
 		
+		container.style.animationDuration = ".8s";
+		container.style.animationName = "expand";
 		container.classList.add("visible");
 		container.classList.remove("hidden");
 	}	
 	else
 	{
-		container.classList.add("hidden");
-		container.classList.remove("visible");
+		var imgs = element.parentNode.querySelectorAll("img:not([ignore])")
+		if (imgs)
+			for (var img of imgs)
+				img.animate([
+					{
+						width: "0",
+						height: "0"
+					},
+					{
+						width: "auto",
+						height: "auto"
+					},
+				], {
+					duration: 1000,
+					direction: "normal"
+				});
+
+		container.style.animationDuration = ".5s";
+		container.style.animationName = "contract";
+		setTimeout(function(){
+			container.classList.remove("visible");
+			container.classList.add("hidden");
+		}, 450);
 	}
 }
 
