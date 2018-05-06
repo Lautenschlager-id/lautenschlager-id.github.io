@@ -69,14 +69,6 @@ font[type="set_lang"] {
 	height: 0;
 	opacity: 0;
 	width: 0;
-	
-	transition:
-		background-color 1s,
-		color .8s,
-		font-size .9s,
-		height .8s,
-		opacity .7s,
-		width .8s;
 }
 .hidden img {
 	width: 0px;
@@ -89,12 +81,6 @@ font[type="set_lang"] {
 	min-width: 150px;
 	opacity: 1;
 	width: max-content;
-	
-	transition:
-		font-size .9s,
-		height .8s,
-		opacity .7s,
-		width .8s;
 }
 
 .tab {
@@ -111,11 +97,9 @@ font[type="set_lang"] {
 	margin: -100px 120px -20px;
 	font-family: "Roboto";
 	text-align: justify;
-	
-	transition:
-		background-color 1s,
-		color .8s,
-		margin .4s;
+
+	animation-duration: .8s;
+	animation-name: expand;
 }
 .sub-container {
 	background-color: #82A0C1;
@@ -201,6 +185,16 @@ font[type="set_lang"] {
 }
 
 /* KEYFRAMES */
+@keyframes expand {
+	from {
+		background-color: transparent;
+		color: transparent;
+		margin: -70px 0px;
+		font-size: 0;
+		height: 0;
+		width: 0;
+	}
+}
 @keyframes display-window {
 	from {
 		top: -300px;

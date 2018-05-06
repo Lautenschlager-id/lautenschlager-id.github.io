@@ -1,7 +1,7 @@
 // Tab open/close
 Tab = function(element) {
 	var expand = element.style.width == "" || element.style.width == "70px";
-	
+
 	setTimeout(function(){
 		element.style.transitionDuration = '1.5s';
 		element.style.width = expand ? "110px" : "70px";
@@ -16,6 +16,8 @@ ToggleContainer = function(element, expand) {
 	
 	if (expand)
 	{
+		ExpandInfographic(element.parentNode.getElementsByClassName("infographic"));
+		
 		container.classList.add("visible");
 		container.classList.remove("hidden");
 	}	
@@ -23,6 +25,27 @@ ToggleContainer = function(element, expand) {
 	{
 		container.classList.add("hidden");
 		container.classList.remove("visible");
+	}
+}
+
+// Expand the graphics (only one tab)
+var graphic = [];
+ExpandInfographic = function(graphics) {
+	if (graphics.length > 0) {
+		for (var i = 0; i < graphics.length; i++)
+		{
+			if (graphic.length < graphics.length)
+				graphic[i] = graphics[i].getAttribute("style").replace(/width:(calc\(.+\));/, "$1");
+			graphics[i].style.width = "0px";
+		}
+		
+		setTimeout(function(){
+			for (var i = 0; i < graphics.length; i++)
+			{
+				graphics[i].style.transitionDuration = '2s';
+				graphics[i].style.width = graphic[i];
+			}
+		});
 	}
 }
 
