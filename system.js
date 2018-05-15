@@ -54,22 +54,21 @@ ToggleContainer = function(element, expand) {
 // Expand the graphics (only one tab)
 var graphic = [];
 ExpandInfographic = function(graphics) {
-	if (graphics.length > 0) {
+	if (graphics.length > 0)
 		for (var i = 0; i < graphics.length; i++)
-		{
 			if (graphic.length < graphics.length)
 				graphic[i] = graphics[i].getAttribute("style").replace(/width:(calc\(.+\));/, "$1");
-			graphics[i].style.width = "0px";
-		}
+	
+	for (var i = 0; i < graphics.length; i++)
+		graphics[i].style.width = "0px";
 		
-		setTimeout(function(){
-			for (var i = 0; i < graphics.length; i++)
-			{
-				graphics[i].style.transitionDuration = '2s';
-				graphics[i].style.width = graphic[i];
-			}
-		});
-	}
+	setTimeout(function(){
+		for (var i = 0; i < graphics.length; i++)
+		{
+			graphics[i].style.transitionDuration = '2s';
+			graphics[i].style.width = graphic[i];
+		}
+	});
 }
 
 // One item per prefix
