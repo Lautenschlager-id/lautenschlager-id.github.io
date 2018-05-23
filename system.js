@@ -98,12 +98,18 @@ OneItem = function(prefix, id) {
 }
 
 // Translation system
+const LangName = {
+	"EN": "English",
+	"BR": "Português",
+	"ES": "Español"
+}
 const Translations = {
 	"EN": {
-		"me_0": "I am Tainã, also known as Tai. I am currently studying Computer Science in Brazil and after concluding the course I intend to go to Canada to master Physics and Astrophysics!",
-		"me_1": "This is my portfolio. Here you can find the programming languages I can decently code, also my biggest projects and the languages I speak nowadays.",
-		"me_2": "Go through the tabs below to know more about me and my skills.",
+		"me_0": "My name is Tainã Romani Lautenschlager Donda, also known as Lautenschlager or Tai. I am 17 and I am currently studying Computer Science at Uninove, in Brazil. I also have an informatic technician degree obtained in the educational institution ETEC Jaraguá.",
+		"me_1": "More than 3 years of experience with written translations (English and Spanish) and 2 years of experience with game and software development.",
+		"me_2": "Web and Desktop development using Lua, C#, C, Java, and JavaScript as main languages. Experienced with Wordpress websites. Game development using the platforms Microsoft XNA, Monogame, Unity (2D) and LÖVE 2D.",
 		
+		"title_me": "About me",
 		"title_prog": "Programming Languages",
 		"title_prj": "Projects",
 		"title_lang": "Idioms",
@@ -111,7 +117,7 @@ const Translations = {
 		
 		"open_source": "ALL MY PROJECTS ARE OPEN SOURCE!",
 		
-		"github": "More than 7,000 contributions in the last year on {0}!",
+		"github": "More than 10,000 contributions in the last year on {0}!",
 		"pastebin": "More than 27,000 unique views in the last two years on {0}!",
 		
 		"prj_1_0": "The game {0} was developed in C# and is based on an epic space battle with skills and different artificial intelligence enemies according to the elapsed time in game.",
@@ -128,10 +134,11 @@ const Translations = {
 		"prj_3_2": "The game is classified as a Real-Time Strategy (RTS) Indie game, because, besides the fact it's a Tower Defense (TD) game, few monetary resources were needed for its development. This game was developed in one week.",
 	},
 	"BR": {
-		"me_0": "Me chamo Tainã, também conhecido por Tai. Atualmente estudo Ciência da Computação no Brasil e depois de concluir o curso pretendo ir para o Canadá para mestrar em Física e Astrofísica!",
-		"me_1": "Este é meu portólio. Aqui você pode encontrar as linguagens de programação que posso utilizar decentemente, também meus maiores projetos e os idiomas que falo hoje em dia.",
-		"me_2": "Navegue nas abas abaixo para conhecer mais sobre mim e sobre minhas habilidades.",
+		"me_0": "Meu nome é Tainã Romani Lautenschlager Donda, também conhecido por Lautenschlager ou Tai. Tenho 17 anos e atualmente estudo Ciência da Computação na Uninove, no Brasil. Também tenho formação técnica em informática obtida pela instituição de ensino ETEC Jaraguá.",
+		"me_1": "Mais de 3 anos de experiência com traduções escritas (Inglês e Espanhol) e 2 anos de experiência com desenvolvimento de jogos e software.",
+		"me_2": "Desenvolvimento Web e Desktop com o uso de Lua, C#, C, Java e JavaScript como linguagens principais. Com experiência em sites Wordpress. Desenvolvimento de jogos utilizando as plataformas Microsoft XNA, Monogame, Unity (2D) e LÖVE 2D.",
 		
+		"title_me": "Sobre mim",
 		"title_prog": "Linguagens de Programação",
 		"title_prj": "Projetos",
 		"title_lang": "Idiomas",
@@ -139,7 +146,7 @@ const Translations = {
 		
 		"open_source": "TODOS OS MEUS PROJETOS SÃO OPEN SOURCE!",
 		
-		"github": "Mais de 7.000 contribuições no último ano no {0}!",
+		"github": "Mais de 10.000 contribuições no último ano no {0}!",
 		"pastebin": "Mais de 27.000 visualizações individuais nos últimos dois anos no {0}!",
 		
 		"prj_1_0": "O jogo {0} foi desenvolvido em C# e é baseado numa épica batalha espacial com habilidads e diferentes inimigos de inteligência artificial de acordo com o tempo de jogo.",
@@ -157,10 +164,11 @@ const Translations = {
 
 	},
 	"ES": {
-		"me_0": "Me llamo Tainã, también conocido como Tai. Actualmente estudio Ciencia de la Computación en Brasil y despues de concluir el curso pretendo ir a Canadá para hacer otros cursos de Física y Astrofísica!",
-		"me_1": "Este es mi portafolio. Acá puedes encontrar los lenguajes de programación que yo sé, también mis mayores proyectos y los idiomas que yo hablo hoy en dia.",
-		"me_2": "Vea las otras pestañas para conocer más de mí y de mis habilidades.",
+		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo 17 años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
+		"me_1": "Más de 3 años de experiencia sobre traducción escrita (Inglés y Español) y 2 años de experiencia sobre desarrollamiento de juegos e softwares.",
+		"me_2": "Desarrollo Web y Desktop usando Lua, C#, C, Java y JavaScript como lenguajes principales. Con experiencia en sitios Wordpress. Desarrollo de juegos con las plataformas Microsoft XNA, Monogame, Unity (2D) y LÖVE 2D.",
 
+		"title_me": "Sobre mi",
 		"title_prog": "Lenguajes de Programación",
 		"title_prj": "Proyectos",
 		"title_lang": "Idiomas",
@@ -168,7 +176,7 @@ const Translations = {
 
 		"open_source": "TODOS MIS PROYECTOS SON OPEN SOURCE!",
 
-		"github": "Más de 7.000 contribuciones en el año pasado en {0}!",
+		"github": "Más de 10.000 contribuciones en el año pasado en {0}!",
 		"pastebin": "Más de 27.000 visualizaciones individuales en los dos últimos dos años en {0}!",
 
 		"prj_1_0": "El juego {0} fue desarrollado en C# y es basado en una batalla épica con habilidades y diferentes enemigos con inteligencia artificial de acuerdo con el tiempo de juego.",
@@ -185,11 +193,6 @@ const Translations = {
 		"prj_3_2": "El juego está clasificado como un juego Indie de Estrategia en Tiempo Real (RTS), porque, además del hecho de que es un juego de Tower Defense, pocos recursos monetarios fueron necesarios para su desarrollo. Este juego fue desarrollado en una semana.",
 	}
 };
-const LangName = {
-	"EN": "English",
-	"BR": "Português",
-	"ES": "Español"
-}
 
 let CurrentLanguage;
 
