@@ -1,5 +1,5 @@
 // Tab open/close
-Tab = function(element) {
+var Tab = function(element) {
 	var expand = element.style.width == "" || element.style.width == "70px";
 
 	setTimeout(function(){
@@ -11,7 +11,7 @@ Tab = function(element) {
 }
 
 // Container show/hide
-ToggleContainer = function(element, expand) {
+var ToggleContainer = function(element, expand) {
 	var container = element.parentNode.querySelector("div");
 	
 	if (expand)
@@ -53,7 +53,7 @@ ToggleContainer = function(element, expand) {
 
 // Expand the graphics (only one tab)
 var graphic = [];
-ExpandInfographic = function(graphics) {
+var ExpandInfographic = function(graphics) {
 	if (graphics.length > 0)
 	{
 		if (graphic.length == 0)
@@ -76,7 +76,7 @@ ExpandInfographic = function(graphics) {
 
 // One item per prefix
 let items = {};
-OneItem = function(prefix, id) {
+var OneItem = function(prefix, id) {
 	var button = document.getElementById(`btn_${prefix}_${id}`);
 	button.style.backgroundColor = "#776CC9";
 	
@@ -201,7 +201,7 @@ let CurrentLanguage;
 
 var GetTranslation = (index) => Translations[CurrentLanguage][index];
 
-SetLanguage = function(language) {
+var SetLanguage = function(language) {
 	CurrentLanguage = language;
 	
 	// Translation
