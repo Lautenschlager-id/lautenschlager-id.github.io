@@ -101,12 +101,12 @@ var OneItem = function(prefix, id) {
 }
 
 // Translation system
-var const LangName = {
+var LangName = {
 	"EN": "English",
 	"BR": "Português",
 	"ES": "Español"
 }
-var const Translations = {
+var Translations = {
 	"EN": {
 		"me_0": "My name is Tainã Romani Lautenschlager Donda, also known as Lautenschlager or Tai. I am 17 and I am currently studying Computer Science at Uninove, in Brazil. I also have an informatic technician degree obtained in the educational institution ETEC Jaraguá.",
 		"me_1": "More than 3 years of experience with written translations (English and Spanish) and 2 years of experience with game and software development.",
