@@ -120,7 +120,7 @@ let Translations = {
 		
 		"open_source": "ALL MY PROJECTS ARE OPEN SOURCE!",
 		
-		"github": "More than 10,000 contributions in the last year on {0}!",
+		"github": "More than 300 contributions in the last year on {0}!",
 		"pastebin": "More than 27,000 unique views in the last two years on {0}!",
 		
 		"prj_1_0": "The game {0} was developed in C# and is based on an epic space battle with skills and different artificial intelligence enemies according to the elapsed time in game.",
@@ -149,7 +149,7 @@ let Translations = {
 		
 		"open_source": "TODOS OS MEUS PROJETOS SÃO OPEN SOURCE!",
 		
-		"github": "Mais de 10.000 contribuições no último ano no {0}!",
+		"github": "Mais de 300 contribuições no último ano no {0}!",
 		"pastebin": "Mais de 27.000 visualizações individuais nos últimos dois anos no {0}!",
 		
 		"prj_1_0": "O jogo {0} foi desenvolvido em C# e é baseado numa épica batalha espacial com habilidads e diferentes inimigos de inteligência artificial de acordo com o tempo de jogo.",
@@ -179,7 +179,7 @@ let Translations = {
 
 		"open_source": "TODOS MIS PROYECTOS SON OPEN SOURCE!",
 
-		"github": "Más de 10.000 contribuciones en el año pasado en {0}!",
+		"github": "Más de 300 contribuciones en el año pasado en {0}!",
 		"pastebin": "Más de 27.000 visualizaciones individuales en los dos últimos dos años en {0}!",
 
 		"prj_1_0": "El juego {0} fue desarrollado en C# y es basado en una batalla épica con habilidades y diferentes enemigos con inteligencia artificial de acuerdo con el tiempo de juego.",
