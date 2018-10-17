@@ -108,7 +108,7 @@ let LangName = {
 }
 let Translations = {
 	"EN": {
-		"me_0": "My name is Tainã Romani Lautenschlager Donda, also known as Lautenschlager or Tai. I am 17 and I am currently studying Computer Science at Uninove, in Brazil. I also have an informatic technician degree obtained in the educational institution ETEC Jaraguá.",
+		"me_0": "My name is Tainã Romani Lautenschlager Donda, also known as Lautenschlager or Tai. I am 18 and I am currently studying Computer Science at Uninove, in Brazil. I also have an informatic technician degree obtained in the educational institution ETEC Jaraguá.",
 		"me_1": "More than 3 years of experience with written translations (English and Spanish) and 2 years of experience with game and software development.",
 		"me_2": "Web and Desktop development using Lua, C#, C, Java, and JavaScript as main languages. Experienced with Wordpress websites. Game development using the platforms Microsoft XNA, Monogame, Unity (2D) and LÖVE 2D.",
 		
@@ -137,7 +137,7 @@ let Translations = {
 		"prj_3_2": "The game is classified as a Real-Time Strategy (RTS) Indie game, because, besides the fact it's a Tower Defense (TD) game, few monetary resources were needed for its development. This game was developed in one week.",
 	},
 	"BR": {
-		"me_0": "Meu nome é Tainã Romani Lautenschlager Donda, também conhecido por Lautenschlager ou Tai. Tenho 17 anos e atualmente estudo Ciência da Computação na Uninove, no Brasil. Também tenho formação técnica em informática obtida pela instituição de ensino ETEC Jaraguá.",
+		"me_0": "Meu nome é Tainã Romani Lautenschlager Donda, também conhecido por Lautenschlager ou Tai. Tenho 18 anos e atualmente estudo Ciência da Computação na Uninove, no Brasil. Também tenho formação técnica em informática obtida pela instituição de ensino ETEC Jaraguá.",
 		"me_1": "Mais de 3 anos de experiência com traduções escritas (Inglês e Espanhol) e 2 anos de experiência com desenvolvimento de jogos e software.",
 		"me_2": "Desenvolvimento Web e Desktop com o uso de Lua, C#, C, Java e JavaScript como linguagens principais. Com experiência em sites Wordpress. Desenvolvimento de jogos utilizando as plataformas Microsoft XNA, Monogame, Unity (2D) e LÖVE 2D.",
 		
@@ -167,7 +167,7 @@ let Translations = {
 
 	},
 	"ES": {
-		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo 17 años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
+		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo 18 años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
 		"me_1": "Más de 3 años de experiencia sobre traducción escrita (Inglés y Español) y 2 años de experiencia sobre desarrollamiento de juegos e softwares.",
 		"me_2": "Desarrollo Web y Desktop usando Lua, C#, C, Java y JavaScript como lenguajes principales. Con experiencia en sitios Wordpress. Desarrollo de juegos con las plataformas Microsoft XNA, Monogame, Unity (2D) y LÖVE 2D.",
 
