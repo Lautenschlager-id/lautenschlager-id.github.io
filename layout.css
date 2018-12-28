@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Concert+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
 	background-color: #00000F;
 	color: #E3E0F3;
-	font-family: "Concert One";
-	margin: 50px;
 }
 p {
 	text-indent: 10px;
@@ -24,6 +21,10 @@ font[type="set_lang"] {
 	font-family: "Roboto";
 	font-size: 20px;
 }
+font span {
+	font-family: "Roboto";
+	font-weight: bold;
+}
 
 .center {
 	margin: 15px 0px;
@@ -40,6 +41,9 @@ font[type="set_lang"] {
 }
 .smooth-shape {
 	border-radius: 4px;
+}
+.smooth-top {
+	border-radius: 4px 4px 0 0;
 }
 .single-line {
 	display: flex;
@@ -174,7 +178,7 @@ font[type="set_lang"] {
 	position: relative;
 	width: max-content;
 	
-    animation-duration: .6s;
+	animation-duration: .6s;
 	animation-name: display-window;
 }
 .window-header {

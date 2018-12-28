@@ -2,36 +2,36 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		
+
 		<link rel="shortcut icon" type="image/x-icon" href="content/favicon.ico">
-		
+
 		<script src="system.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="layout.css">
 	</head>
-	
+
 	<body>
 		<!--Idiom-->
 		<button id="change_lang" class="single-line smooth-shape button fixed-width" style="margin-bottom:30px;">
 			<img class="round icon" src="content/flag_en.png" alt="Idiom"> English
 		</button>
-		
-		<div id="window" class="window">
-			<div class="window-content">
-				<div class="window-header">
+
+		<div id="window" class="smooth-top window">
+			<div class="smooth-top window-content">
+				<div class="smooth-top window-header">
 					<h2><span translation-index="title_lang"></span></h2>
 				</div>
-				<button onclick="SetLanguage('EN');" class="single-line smooth-shape button fixed-width">
+				<button onclick="SetLanguage('EN');" class="single-line button fixed-width">
 					<img class="round icon" src="content/flag_en.png" alt="English"> English
 				</button> 
-				<button onclick="SetLanguage('BR');" class="single-line smooth-shape button fixed-width">
+				<button onclick="SetLanguage('BR');" class="single-line button fixed-width">
 					<img class="round icon" src="content/flag_br.png" alt="Português"> Português
 				</button>
-				<button onclick="SetLanguage('ES');" class="single-line smooth-shape button fixed-width">
+				<button onclick="SetLanguage('ES');" class="single-line button fixed-width">
 					<img class="round icon" src="content/flag_es.png" alt="Español"> Español
 				</button>
 			</div>
 		</div>
-		
+
 		<br>
 		<!--Tags-->
 		<div id="1">
@@ -45,7 +45,7 @@
 		</div>
 
 		<br><br>
-		
+
 		<div id="2">
 			<img ignore="" onclick="Tab(this);" src="content/tab_2.jpg" class="round tab">
 			<font size="15px" class="absolute"><span translation-index="title_prog"></span></font>
@@ -55,35 +55,40 @@
 					<img src="content/lang_lua.png" alt="Lua">
 					<font size="20">98%</font>
 				</div>
-				
-				<div class="squared infographic" style="width:calc(100px + 75px * 4);">
+
+				<div class="squared infographic" style="width:calc(100px + 70px * 4);">
 					<img src="content/lang_cs.png" alt="C#">
-					<font size="20">75%</font>
+					<font size="20">70%</font>
 				</div>
-				
-				<div class="squared infographic" style="width:calc(100px + 60px * 4);">
-					<img src="content/lang_c.png" alt="C">
-					<font size="20">60%</font>
-				</div>
-				
-				<div class="squared infographic" style="width:calc(100px + 40px * 4);">
+
+				<div class="squared infographic" style="width:calc(100px + 50px * 4);">
 					<img src="content/lang_java.png" alt="Java">
-					<font size="20">40%</font>
+					<font size="20">50%</font>
 				</div>
-				
+
+				<div class="squared infographic" style="width:calc(100px + 38px * 4);">
+					<img src="content/lang_js.png" alt="JavaScript">
+					<font size="20">38%</font>
+				</div>
+
 				<div class="squared infographic" style="width:calc(100px + 35px * 4);">
-					<img src="content/lang_cpp.png" alt="C++">
+					<img src="content/lang_c.png" alt="C">
 					<font size="20">35%</font>
 				</div>
-				
+
 				<div class="squared infographic" style="width:calc(100px + 15px * 4);">
-					<img src="content/lang_js.png" alt="JavaScript">
+					<img src="content/lang_py.png" alt="Python">
 					<font size="20">15%</font>
 				</div>
-				
+
 				<div class="squared infographic" style="width:calc(100px + 10px * 4);">
-					<img src="content/lang_py.png" alt="Python">
+					<img src="content/lang_cpp.png" alt="C++">
 					<font size="20">10%</font>
+				</div>
+
+				<div class="squared infographic" style="width:calc(100px + 8px * 4);">
+					<img src="content/lang_php.png" alt="PHP">
+					<font size="20">8%</font>
 				</div>
 			</div>
 		</div>
@@ -95,19 +100,19 @@
 			<font size="15px" class="absolute"><span translation-index="title_prj"></span></font>
 			<div class="half-squared hidden container">
 				<h2><span translation-index="open_source"></span></h2>
-			
+
 				<div class="center">
 					<img src="content/github_contributions.png" alt="Github Contributions">
 					<br>
 					<span translation-index="github" format='<a target="_blank" href="https://github.com/Lautenschlager-id">Github</a>'></span>
 				</div>
-				
+
 				<div class="center">
 					<img src="content/pastebin_stats.png" alt="Pastebin Stats">
 					<br>
 					<span translation-index="pastebin" format='<a target="_blank" href="https://pastebin.com/u/Bolodefchoco_LUAXML#_=_">Pastebin</a>'></span>
 				</div>
-				
+
 				<button id="btn_prj_3" type="button" onclick="OneItem('prj', '3');" class="smooth-shape button">Solar System Defense</button>
 				<button id="btn_prj_2" type="button" onclick="OneItem('prj', '2');" class="smooth-shape button">Translator Bot</button>
 				<button id="btn_prj_1" type="button" onclick="OneItem('prj', '1');" class="smooth-shape button">Head Wars</button>
@@ -118,11 +123,11 @@
 						<br>
 						<iframe frameborder="0" src="https://itch.io/embed/255207?border_width=0&amp;bg_color=00000F&amp;fg_color=e4e4ea&amp;link_color=0484D1&amp;border_color=00000F" width="206" height="165"></iframe>
 					</div>
-					
+
 					<p><span translation-index="prj_3_0" format='<a type="sub" target="_blank" href="">Solar System Defense</a>'></span></p>
 					<p><span translation-index="prj_3_1"></span></p>
 					<p><span translation-index="prj_3_2"></span></p>
-					
+
 					<div class="center">
 						<img src="content/solar-system-defense.gif" alt="Solar System System Gameplay" width="90%" height="90%">
 					</div>
@@ -131,23 +136,23 @@
 					<div class="center">
 						<img src="content/translator-bot.png" alt="Translator Bot">
 					</div>
-				
+
 					<p><span translation-index="prj_2_0" format='<a type="sub" target="_blank" href="https://discord.gg/eXB6QrU">Translator Bot</a>'></span></p>
-					
+
 					<span translation-index="prj_2_1"></span>
-					
+
 					<div class="center">
 						<img src="content/translator-bot-cmds.png" alt="Discord Bot - Commands">
 					</div>
-					
+
 					<span translation-index="prj_2_2"></span>
-					
+
 					<div class="center">
 						<img src="content/translator-bot-request.png" alt="Discord Bot - Request">
 					</div>
-					
+
 					<span translation-index="prj_2_3"></span>
-					
+
 					<div class="center">
 						<img src="content/translator-bot-translation.png" alt="Discord Bot - Translation">
 					</div>
@@ -158,11 +163,11 @@
 						<br>
 						<iframe frameborder="0" src="https://itch.io/embed/255550?border_width=0&amp;bg_color=000000&amp;fg_color=bdbaba&amp;link_color=fa5c5c&amp;border_color=333333" width="206" height="165"></iframe>
 					</div>
-				
+
 					<p><span translation-index="prj_1_0" format='<a type="sub" target="_blank" href="https://www.4shared.com/s/fGr3-Hslcei">Head Wars</a>'></span></p>
 					<p><span translation-index="prj_1_1"></span></p>
 					<p><span translation-index="prj_1_2"></span></p>
-					
+
 					<div class="center">
 						<img src="content/head-wars.gif" alt="Head Wars Gameplay" width="80%" height="80%">
 					</div>
@@ -178,12 +183,12 @@
 			<div class="half-squared hidden container">
 				<div class="single-line img-button-collection">
 					<img id="btn_flag_1" onclick="OneItem('flag', '1');" src="content/flag_br.png" alt="Português">
-					<img id="btn_flag_2" onclick="OneItem('flag', '2');" src="content/flag_en.png" alt="English">					
+					<img id="btn_flag_2" onclick="OneItem('flag', '2');" src="content/flag_en.png" alt="English">
 					<img id="btn_flag_3" onclick="OneItem('flag', '3');" src="content/flag_es.png" alt="Español">
 					<img id="btn_flag_4" onclick="OneItem('flag', '4');" src="content/flag_de.png" alt="Deutsch">
 					<img id="btn_flag_5" onclick="OneItem('flag', '5');" src="content/flag_fr.png" alt="Français">
 				</div>
-				
+
 				<div id="flag_1" class="half-squared sub-container hidden">
 					Português é meu idioma nativo.
 				</div>

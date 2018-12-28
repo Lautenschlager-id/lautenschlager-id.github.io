@@ -100,6 +100,10 @@ var OneItem = function(prefix, id) {
 		}
 }
 
+// Get year
+let pastTime = new Date(971957400000);
+let age = Math.floor((new Date() - pastTime) / (1000 * 60 * 60 * 24) / 365);
+
 // Translation system
 let LangName = {
 	"EN": "English",
@@ -108,9 +112,9 @@ let LangName = {
 }
 let Translations = {
 	"EN": {
-		"me_0": "My name is Tainã Romani Lautenschlager Donda, also known as Lautenschlager or Tai. I am 18 and I am currently studying Computer Science at Uninove, in Brazil. I also have an informatic technician degree obtained in the educational institution ETEC Jaraguá.",
+		"me_0": "My name is Tainã Romani Lautenschlager Donda, also known as Lautenschlager or Tai. I am " + age + " and I am currently studying Computer Science at Uninove, in Brazil. I also have an informatic technician degree obtained in the educational institution ETEC Jaraguá.",
 		"me_1": "More than 3 years of experience with written translations (English and Spanish) and 2 years of experience with game and software development.",
-		"me_2": "Web and Desktop development using Lua, C#, C, Java, and JavaScript as main languages. Experienced with Wordpress websites. Game development using the platforms Microsoft XNA, Monogame, Unity (2D) and LÖVE 2D.",
+		"me_2": "Web and Desktop development using Lua, C#, C, Java, and JavaScript as main languages. Experienced with Wordpress websites. Game development using the platforms Microsoft XNA, Monogame, Unity3D and LÖVE 2D.",
 		
 		"title_me": "About me",
 		"title_prog": "Programming Languages",
@@ -120,8 +124,8 @@ let Translations = {
 		
 		"open_source": "ALL MY PROJECTS ARE OPEN SOURCE!",
 		
-		"github": "More than 300 contributions in the last year on {0}!",
-		"pastebin": "More than 27,000 unique views in the last two years on {0}!",
+		"github": "More than 530 contributions in the last year on {0}!",
+		"pastebin": "More than 31,500 unique views in the last three years on {0}!",
 		
 		"prj_1_0": "The game {0} was developed in C# and is based on an epic space battle with skills and different artificial intelligence enemies according to the elapsed time in game.",
 		"prj_1_1": "The main idea is to entertain the players with funny teacher (my teachers) faces as characters/enemies, and other stuff like score and skills.",
@@ -137,9 +141,9 @@ let Translations = {
 		"prj_3_2": "The game is classified as a Real-Time Strategy (RTS) Indie game, because, besides the fact it's a Tower Defense (TD) game, few monetary resources were needed for its development. This game was developed in one week.",
 	},
 	"BR": {
-		"me_0": "Meu nome é Tainã Romani Lautenschlager Donda, também conhecido por Lautenschlager ou Tai. Tenho 18 anos e atualmente estudo Ciência da Computação na Uninove, no Brasil. Também tenho formação técnica em informática obtida pela instituição de ensino ETEC Jaraguá.",
+		"me_0": "Meu nome é Tainã Romani Lautenschlager Donda, também conhecido por Lautenschlager ou Tai. Tenho " + age + " anos e atualmente estudo Ciência da Computação na Uninove, no Brasil. Também tenho formação técnica em informática obtida pela instituição de ensino ETEC Jaraguá.",
 		"me_1": "Mais de 3 anos de experiência com traduções escritas (Inglês e Espanhol) e 2 anos de experiência com desenvolvimento de jogos e software.",
-		"me_2": "Desenvolvimento Web e Desktop com o uso de Lua, C#, C, Java e JavaScript como linguagens principais. Com experiência em sites Wordpress. Desenvolvimento de jogos utilizando as plataformas Microsoft XNA, Monogame, Unity (2D) e LÖVE 2D.",
+		"me_2": "Desenvolvimento Web e Desktop com o uso de Lua, C#, C, Java e JavaScript como linguagens principais. Com experiência em sites Wordpress. Desenvolvimento de jogos utilizando as plataformas Microsoft XNA, Monogame, Unity3D e LÖVE 2D.",
 		
 		"title_me": "Sobre mim",
 		"title_prog": "Linguagens de Programação",
@@ -149,8 +153,8 @@ let Translations = {
 		
 		"open_source": "TODOS OS MEUS PROJETOS SÃO OPEN SOURCE!",
 		
-		"github": "Mais de 300 contribuições no último ano no {0}!",
-		"pastebin": "Mais de 27.000 visualizações individuais nos últimos dois anos no {0}!",
+		"github": "Mais de 530 contribuições no último ano no {0}!",
+		"pastebin": "Mais de 31.500 visualizações individuais nos três últimos anos no {0}!",
 		
 		"prj_1_0": "O jogo {0} foi desenvolvido em C# e é baseado numa épica batalha espacial com habilidads e diferentes inimigos de inteligência artificial de acordo com o tempo de jogo.",
 		"prj_1_1": "A ideia principal é entreter os jogadores com personagens/inimigos que têm o rosto dos professores (meus professores), e outras coisas como pontuação e habilidades.",
@@ -167,9 +171,9 @@ let Translations = {
 
 	},
 	"ES": {
-		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo 18 años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
+		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo " + age + " años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
 		"me_1": "Más de 3 años de experiencia sobre traducción escrita (Inglés y Español) y 2 años de experiencia sobre desarrollamiento de juegos e softwares.",
-		"me_2": "Desarrollo Web y Desktop usando Lua, C#, C, Java y JavaScript como lenguajes principales. Con experiencia en sitios Wordpress. Desarrollo de juegos con las plataformas Microsoft XNA, Monogame, Unity (2D) y LÖVE 2D.",
+		"me_2": "Desarrollo Web y Desktop usando Lua, C#, C, Java y JavaScript como lenguajes principales. Con experiencia en sitios Wordpress. Desarrollo de juegos con las plataformas Microsoft XNA, Monogame, Unity3D y LÖVE 2D.",
 
 		"title_me": "Sobre mi",
 		"title_prog": "Lenguajes de Programación",
@@ -179,8 +183,8 @@ let Translations = {
 
 		"open_source": "TODOS MIS PROYECTOS SON OPEN SOURCE!",
 
-		"github": "Más de 300 contribuciones en el año pasado en {0}!",
-		"pastebin": "Más de 27.000 visualizaciones individuales en los dos últimos dos años en {0}!",
+		"github": "Más de 530 contribuciones en el año pasado en {0}!",
+		"pastebin": "Más de 31.500 visualizaciones individuales en los tres últimos años en {0}!",
 
 		"prj_1_0": "El juego {0} fue desarrollado en C# y es basado en una batalla épica con habilidades y diferentes enemigos con inteligencia artificial de acuerdo con el tiempo de juego.",
 		"prj_1_1": "La idea principal es entretener los jugadores con personajes/enemigos con la cara de profesores (mis profesores), y otras cosas como puntuación y habilidades.",
