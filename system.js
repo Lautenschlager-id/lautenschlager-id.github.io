@@ -149,7 +149,7 @@ let Translations = {
 		"title_prog": "Linguagens de Programação",
 		"title_prj": "Projetos",
 		"title_lang": "Idiomas",
-		"title_contact": "Me contate",
+		"title_contact": "Contate-me",
 		
 		"open_source": "TODOS OS MEUS PROJETOS SÃO OPEN SOURCE!",
 		
