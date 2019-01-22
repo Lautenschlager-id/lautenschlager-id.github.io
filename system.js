@@ -78,7 +78,7 @@ var ExpandInfographic = function(graphics) {
 let items = {};
 var OneItem = function(prefix, id) {
 	var button = document.getElementById(`btn_${prefix}_${id}`);
-	button.style.backgroundColor = "#776CC9";
+	button.style.backgroundColor = "#2FA0BC";
 	
 	var object = document.getElementById(`${prefix}_${id}`);
 	object.classList.remove("hidden");
@@ -93,7 +93,7 @@ var OneItem = function(prefix, id) {
 		if (item_id != id)
 		{
 			var item_button = document.getElementById(`btn_${prefix}_${item_id}`);
-			item_button.style.backgroundColor = "#20B0C7";
+			item_button.style.backgroundColor = "#00B8E6";
 
 			var item = document.getElementById(`${prefix}_${item_id}`);
 			item.classList.add("hidden");

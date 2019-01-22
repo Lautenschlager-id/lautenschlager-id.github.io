@@ -15,7 +15,7 @@ a, a[type="sub"] {
 	text-decoration: none;
 }
 a[type="sub"] {
-	color: #77BBFF;
+	color: #CDD2FF;
 }
 font[type="set_lang"] {
 	font-family: "Roboto";
@@ -107,7 +107,7 @@ font span {
 	animation-name: expand;
 }
 .sub-container {
-	background-color: #82A0C1;
+	background-color: #6c8dad;
 	color: #FFFFFF;
 	margin-top: 5px;
 	padding: 10px 10px;
@@ -131,7 +131,7 @@ font span {
 }
 
 .button {
-	background-color: #20B0C7;
+	background-color: #0DB8E2;
 	border: none;
 	color: #FFFFFF;
 	cursor: pointer;
@@ -147,7 +147,7 @@ font span {
 	transition-timing-function: ease-in-out;
 }
 .button:hover {
-	background-color: #776CC9;
+	background-color: #2fa0bc;
 }
 
 .img-button-collection img {
