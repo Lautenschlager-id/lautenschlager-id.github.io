@@ -235,8 +235,8 @@ var SetLanguage = function(language) {
 	
 	// Change flag
 	var flag = document.getElementById('change_lang');
-	flag.innerHTML = flag.innerHTML.replace(/flag_..(.+?> ).+/, `flag_${CurrentLanguage.toLowerCase()}$1${LangName[CurrentLanguage]}`);
-	
+	flag.src = "content/flag_" + language.toLowerCase() + ".jpg";
+
 	CloseWindow();
 }
 
