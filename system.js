@@ -179,7 +179,7 @@ let Translations = {
 	},
 	"ES": {
 		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo " + age + " años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
-		"me_1": "Más de 3 años de experiencia sobre traducción escrita (Inglés y Español) y 2 años de experiencia sobre desarrollamiento de juegos e softwares.",
+		"me_1": "Más de 3 años de experiencia sobre traducción escrita (Inglés y Español) y 2 años de experiencia sobre desarrollamiento de juegos y softwares.",
 		"me_2": "Desarrollo Web y Desktop usando Lua, C#, C, Java y JavaScript como lenguajes principales. Con experiencia en sitios Wordpress. Desarrollo de juegos con las plataformas Microsoft XNA, Monogame, Unity3D y LÖVE 2D.",
 
 		"title_me": "Sobre mi",
