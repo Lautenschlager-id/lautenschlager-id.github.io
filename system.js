@@ -78,7 +78,7 @@ var ExpandInfographic = function(graphics) {
 let items = {};
 var OneItem = function(prefix, id) {
 	var button = document.getElementById(`btn_${prefix}_${id}`);
-	button.style.backgroundColor = "#2FA0BC";
+	button.style.backgroundColor = (prefix == "flag" ? "#000000" : "#386A9B");
 	
 	var object = document.getElementById(`${prefix}_${id}`);
 	object.classList.remove("hidden");
@@ -93,7 +93,7 @@ var OneItem = function(prefix, id) {
 		if (item_id != id)
 		{
 			var item_button = document.getElementById(`btn_${prefix}_${item_id}`);
-			item_button.style.backgroundColor = "#00B8E6";
+			item_button.style.backgroundColor = (prefix == "flag" ? "transparent" : "#4183C4");
 
 			var item = document.getElementById(`${prefix}_${item_id}`);
 			item.classList.add("hidden");
@@ -139,6 +139,10 @@ let Translations = {
 		"prj_3_0": "The game {0} was developed in C# and is based on several other Tower Defense (TD) games, but with an improved difficulty system and an environment that constantly excites the player.",
 		"prj_3_1": "The aim of the game is not to let the aliens get in the Earth. You have some features to help you with it.",
 		"prj_3_2": "The game is classified as a Real-Time Strategy (RTS) Indie game, because, besides the fact it's a Tower Defense (TD) game, few monetary resources were needed for its development. This game was developed in one week.",
+
+		"prj_4_0": "The {0} is a documented RESTful API that allows developers to make bots for the Atelier801 forum.",
+		"prj_4_1": "It uses the most sophisticated techniques of performance boost to offer the best results for the developer.",
+		"prj_4_2": "It currently can perform 99% of the actions that a regular user could do using the interface."
 	},
 	"BR": {
 		"me_0": "Meu nome é Tainã Romani Lautenschlager Donda, também conhecido por Lautenschlager ou Tai. Tenho " + age + " anos e atualmente estudo Ciência da Computação na Uninove, no Brasil. Também tenho formação técnica em informática obtida pela instituição de ensino ETEC Jaraguá.",
@@ -169,6 +173,9 @@ let Translations = {
 		"prj_3_1": "O objetivo do jogo é não deixar os aliens chegarem na Terra. Você terá alguns recursos para lhe ajudarem nisso.",
 		"prj_3_2": "O jogo está classificado no gênero Estratégia em Tempo Real (RTS), pois, além de ser um jogo de Defesa de Torres (TD), poucos recursos monetários foram utilizados para seu desenvolvimento. Esse jogo foi desenvolvido em uma semana.",
 
+		"prj_4_0": "A {0} é uma API RESTful documentada que permite desenvolvedores criarem bots para o fórum Atelier801.",
+		"prj_4_1": "Ela usa as técnicas mais sofisticadas de boost de performance para oferecer os melhores resultados ao programador.",
+		"prj_4_2": "Atualmente ela pode realizar 99% das ações que um usuário regular também poderia utilizando a interface."
 	},
 	"ES": {
 		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo " + age + " años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
@@ -198,6 +205,10 @@ let Translations = {
 		"prj_3_0": "El juego {0} fue desarrollado en C# y es basado en muchos otros juegos de Tower Defense (TD), pero con un sistema de dificuldad mejorado y un ambiente que constantemente excita al jugador.",
 		"prj_3_1": "El objetivo del juego es no dejar que los aliens entren en la Tierra. Tendrá algunas cosas que te ayudaran con eso.",
 		"prj_3_2": "El juego está clasificado como un juego Indie de Estrategia en Tiempo Real (RTS), porque, además del hecho de que es un juego de Tower Defense, pocos recursos monetarios fueron necesarios para su desarrollo. Este juego fue desarrollado en una semana.",
+
+		"prj_4_0": "La {0} es una API documentada y RESTful que permite que desarrolladores hagan bots para el foro Atelier801.",
+		"prj_4_1": "Usa las más sofisticadas técnicas de aumento de rendimiento para ofrecer los mejores resultados al programador.",
+		"prj_4_2": "Actualmente puede hacer el 99% de las acciones que un usuario regular podría hacer con la interfaz."
 	}
 };
 

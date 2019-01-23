@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-	background-color: #00000F;
-	color: #E3E0F3;
+	background-color: #272930;
+	color: #F2F2F4;
 }
 p {
 	text-indent: 10px;
@@ -15,7 +15,7 @@ a, a[type="sub"] {
 	text-decoration: none;
 }
 a[type="sub"] {
-	color: #CDD2FF;
+	color: #29B3CC;
 }
 font[type="set_lang"] {
 	font-family: "Roboto";
@@ -95,8 +95,8 @@ font span {
 }
 
 .container {
-	background-color: #4E6D8B;
-	color: #F9F7F7;
+	-background-color: #5769A8;
+	color: #EFF7FF;
 	padding: 10px;
 	margin: -100px 120px -20px;
 	font-family: "Roboto";
@@ -107,8 +107,7 @@ font span {
 	animation-name: expand;
 }
 .sub-container {
-	background-color: #6C8DAD;
-	color: #FFFFFF;
+	background-color: #31343d;
 	margin-top: 5px;
 	padding: 10px 10px;
 	font-family: "Lato";
@@ -118,8 +117,8 @@ font span {
 
 .infographic {
 	align-items: center;
-	background-color: #6C8DAD;
-	color: #4E6D8B;
+	background-color: #31343d;
+	color: #9EA6C1;
 	display: flex;
 	height: 55px;
 	margin: 5px;
@@ -131,7 +130,7 @@ font span {
 }
 
 .button {
-	background-color: #0DB8E2;
+	background-color: #4183C4;
 	border: none;
 	color: #FFFFFF;
 	cursor: pointer;
@@ -147,16 +146,15 @@ font span {
 	transition-timing-function: ease-in-out;
 }
 .button:hover {
-	background-color: #2fa0bc;
+	background-color: #386A9B;
 }
 
 .img-button-collection img {
-	background-color: #20B0C7;
-	border: 2px solid #000000;
+	border: transparent;
 	padding: 5px;
 }
 .img-button-collection img:hover {
-	border: 2px solid #63FF6D;
+	border: 2px solid #F2F2F4;
 }
 
 /* Class based on w3schools' modal */
@@ -172,8 +170,6 @@ font span {
 	z-index: 1;
 }
 .window-content {
-	background-color: #82A0C1;
-	border: 1px solid #323232;
 	margin: auto;
 	position: relative;
 	width: max-content;
@@ -182,8 +178,7 @@ font span {
 	animation-name: display-window;
 }
 .window-header {
-	background-color: #4E6D8B;
-	color: #FFFFFF;
+	background-color: #31343d;
 	font-family: "Lato";
 	padding: 2px 0px;
 	text-align: center;
