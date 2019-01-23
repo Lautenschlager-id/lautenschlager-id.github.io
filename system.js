@@ -2,11 +2,15 @@
 var Tab = function(element) {
 	var expand = element.style.width == "" || element.style.width == "70px";
 
-	setTimeout(function(){
-		element.style.transitionDuration = '1.5s';
-		element.style.width = expand ? "110px" : "70px";
-	});
-	
+	//setTimeout(function(){
+	element.style.transitionDuration = '1.5s';
+	element.style.width = expand ? "110px" : "70px";
+	//});
+	if (expand)
+		setTimeout(function(){
+			element.scrollIntoView();
+		}, 1500)
+
 	ToggleContainer(element, expand);
 }
 
@@ -70,7 +74,7 @@ var ExpandInfographic = function(graphics) {
 				graphics[i].style.transitionDuration = '2s';
 				graphics[i].style.width = graphic[i];
 			}
-		});
+		}, 500);
 	}
 }
 
@@ -233,9 +237,14 @@ var SetLanguage = function(language) {
 		text.innerHTML = content;
 	}
 	
+	let lang = language.toLowerCase();
 	// Change flag
 	var flag = document.getElementById('change_lang');
-	flag.src = "content/flag_" + language.toLowerCase() + ".jpg";
+	flag.src = "content/flag_" + lang + ".jpg";
+
+	// Change pdf
+	var pdf = document.getElementById('cv');
+	pdf.href = "content/cv_" + lang + ".pdf";
 
 	CloseWindow();
 }
