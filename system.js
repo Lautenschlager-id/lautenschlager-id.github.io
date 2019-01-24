@@ -169,7 +169,7 @@ let Translations = {
 		"prj_1_2": "O jogo está classificado no gênero Indie de Ação, pois, além de ser um jogo de tiro, poucos recursos monetários foram utilizados para sua produção, além de uma quantidade ínfima de pessoas (o desenvolvedor e um voluntário para desenho gráfico).",
 
 		"prj_2_0": "O {0} tem diversos recursos, públicos e privados, 50 especiais e efetivos comandos para gerenciar mais de 40 tradutores e 100 usuários.",
-		"prj_2_1": "Aqui estão alguns comandos para o público",
+		"prj_2_1": "Aqui estão alguns comandos para o público:",
 		"prj_2_2": "Assim é como recebemos um pedido:",
 		"prj_2_3": "Assim é como você recebe a tradução:",
 		
