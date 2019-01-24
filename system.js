@@ -3,7 +3,7 @@ var Tab = function(element) {
 	var expand = element.style.width == "" || element.style.width == "70px";
 
 	//setTimeout(function(){
-	element.style.transitionDuration = '1.5s';
+	element.style.transitionDuration = "1.5s";
 	element.style.width = expand ? "110px" : "70px";
 	//});
 	if (expand)
@@ -71,7 +71,7 @@ var ExpandInfographic = function(graphics) {
 		setTimeout(function(){
 			for (var i = 0; i < graphics.length; i++)
 			{
-				graphics[i].style.transitionDuration = '2s';
+				graphics[i].style.transitionDuration = "2s";
 				graphics[i].style.width = graphic[i];
 			}
 		}, 500);
@@ -224,10 +224,10 @@ var SetLanguage = function(language) {
 	CurrentLanguage = language;
 	
 	// Translation
-	var texts = document.querySelectorAll('*[translation-index]');
+	var texts = document.querySelectorAll("*[translation-index]");
 	for (var text of texts) {
-		var index = text.attributes.getNamedItem('translation-index').value;
-		var format = text.attributes.getNamedItem('format');
+		var index = text.attributes.getNamedItem("translation-index").value;
+		var format = text.attributes.getNamedItem("format");
 		
 		var content = Translations[CurrentLanguage][index];
 		
@@ -239,11 +239,11 @@ var SetLanguage = function(language) {
 	
 	let lang = language.toLowerCase();
 	// Change flag
-	var flag = document.getElementById('change_lang');
+	var flag = document.getElementById("change_lang");
 	flag.src = "content/flag_" + lang + ".jpg";
 
 	// Change pdf
-	var pdf = document.getElementById('cv');
+	var pdf = document.getElementById("cv");
 	pdf.href = "content/cv_" + lang + ".pdf";
 
 	CloseWindow();
@@ -278,6 +278,6 @@ window.onload = function(){
 String.prototype.format = function () {
     var a = this;
     for (var k in arguments)
-        a = a.replace(new RegExp("\\{" + k + "\\}", 'g'), arguments[k]);
+        a = a.replace(new RegExp("\\{" + k + "\\}", "g"), arguments[k]);
     return a
 }
