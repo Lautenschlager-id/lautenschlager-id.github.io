@@ -1,4 +1,4 @@
-// Tab open/close
+﻿// Tab open/close
 var Tab = function(element) {
 	var expand = element.style.width == "" || element.style.width == "70px";
 
@@ -135,10 +135,10 @@ let Translations = {
 		"prj_1_1": "The main idea is to entertain the players with funny teacher (my teachers) faces as characters/enemies, and other stuff like score and skills.",
 		"prj_1_2": "The game is classified as an Action Indie game, because, besides the fact it's a Shooter game, few monetary resources were needed for its development, also only two people worked on that: the developer and a volunteer for the graphic drawings.",
 		
-		"prj_2_0": "The {0} has several features, public and private, 50 special and very effective commands to manage more than 40 translators and 100 users.",
+		"prj_2_0": "The {0} is a Discord bot with several features, more than 60 special and very effective commands to manage more than 40 translators and 150 users.",
 		"prj_2_1": "Here are some commands for the public:",
-		"prj_2_2": "This is how we receive a request:",
-		"prj_2_3": "This is how you receive your translation:",
+		"prj_2_2": "This is how the team receives a request:",
+		"prj_2_3": "This is how the requester receives the translation:",
 		
 		"prj_3_0": "The game {0} was developed in C# and is based on several other Tower Defense (TD) games, but with an improved difficulty system and an environment that constantly excites the player.",
 		"prj_3_1": "The aim of the game is not to let the aliens get in the Earth. You have some features to help you with it.",
@@ -168,10 +168,10 @@ let Translations = {
 		"prj_1_1": "A ideia principal é entreter os jogadores com personagens/inimigos que têm o rosto dos professores (meus professores), e outras coisas como pontuação e habilidades.",
 		"prj_1_2": "O jogo está classificado no gênero Indie de Ação, pois, além de ser um jogo de tiro, poucos recursos monetários foram utilizados para sua produção, além de uma quantidade ínfima de pessoas (o desenvolvedor e um voluntário para desenho gráfico).",
 
-		"prj_2_0": "O {0} tem diversos recursos, públicos e privados, 50 especiais e efetivos comandos para gerenciar mais de 40 tradutores e 100 usuários.",
+		"prj_2_0": "O {0} é um bot do Discord que tem diversos recursos, mais de 60 comandos especiais e efetivos para gerenciar mais de 40 tradutores e 150 usuários.",
 		"prj_2_1": "Aqui estão alguns comandos para o público:",
-		"prj_2_2": "Assim é como recebemos um pedido:",
-		"prj_2_3": "Assim é como você recebe a tradução:",
+		"prj_2_2": "Assim é como a equipe recebe um pedido:",
+		"prj_2_3": "Assim é como o destinatário recebe a tradução:",
 		
 		"prj_3_0": "O jogo {0} foi desenvolvido em C# e é baseado em vários outros jogos de Defesa de Torres (TD), mas com um sistema de dificuldade melhorado e um ambiente que constantemente deixa o jogador empolgado.",
 		"prj_3_1": "O objetivo do jogo é não deixar os aliens chegarem na Terra. Você terá alguns recursos para lhe ajudarem nisso.",
@@ -201,10 +201,10 @@ let Translations = {
 		"prj_1_1": "La idea principal es entretener los jugadores con personajes/enemigos con la cara de profesores (mis profesores), y otras cosas como puntuación y habilidades.",
 		"prj_1_2": "El juego es clasificado como un juego Indie de Ación, pues, además del hecho de que es un juego de tiro, pocos recursos monetarios fueron necesarios para su desarrollo, también solamente dos personas trabajaron en eso: el programador y un voluntario para los diseños gráficos.",
 
-		"prj_2_0": "Lo {0} tiene muchos recursos, públicos y privados, 50 comandos especiales y muy eficaces para gestionar más de 40 traductores y 100 usuarios.",
+		"prj_2_0": "Lo {0} es un bot para el Discord y tiene muchos recursos, mas que 60 comandos especiales y muy eficaces para gestionar más de 40 traductores y 150 usuarios.",
 		"prj_2_1": "Acá están algunos comandos para el público:",
-		"prj_2_2": "Así es como recibimos un pedido:",
-		"prj_2_3": "Así es como recibes una traducción:",
+		"prj_2_2": "Así es como el equipo recibe un pedido:",
+		"prj_2_3": "Así es como el destinatario recibe una traducción:",
 
 		"prj_3_0": "El juego {0} fue desarrollado en C# y es basado en muchos otros juegos de Tower Defense (TD), pero con un sistema de dificuldad mejorado y un ambiente que constantemente excita al jugador.",
 		"prj_3_1": "El objetivo del juego es no dejar que los aliens entren en la Tierra. Tendrá algunas cosas que te ayudaran con eso.",
