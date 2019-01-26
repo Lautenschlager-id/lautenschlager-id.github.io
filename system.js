@@ -251,6 +251,11 @@ var SetLanguage = function(language) {
 
 var CloseWindow = () => document.getElementById("window").style.display = "none";
 
+var countryCodes = {
+	"ES": ["ES", "GQ", "CU", "PR", "DO", "MX", "GT", "HN", "SV", "NI", "CR", "PA", "CO", "VE", "EC", "PE", "BO", "CL", "AR", "PY", "UY"],
+	"BR": ["BR", "PT", "GV", "ST" ]
+};
+
 window.onload = function(){
 	// Translation normalization
 	for (var lang in Translations)
@@ -259,8 +264,13 @@ window.onload = function(){
 				if (Translations[lang][index] === undefined)
 					Translations[lang][index] = Translations.EN[index];
 
-	SetLanguage("EN");
-	
+	fetch("http://www.geoplugin.net/json.gp").then((r) => r.json()).then((r) => {
+		for (let country in countryCodes)
+			if (countryCodes[country].includes(r.geoplugin_countryCode))
+				return SetLanguage(country);
+		SetLanguage("EN");
+	}).catch(() => SetLanguage("EN"));
+
 	// Based on w3schools' modal
 	var eWindow = document.getElementById("window");
 	var window_button = document.getElementById("change_lang");
