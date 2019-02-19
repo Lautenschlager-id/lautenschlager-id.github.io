@@ -1,4 +1,4 @@
-﻿// Tab open/close
+// Tab open/close
 var Tab = function(element) {
 	var expand = element.style.width == "" || element.style.width == "70px";
 
