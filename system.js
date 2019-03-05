@@ -128,8 +128,8 @@ let Translations = {
 		
 		"open_source": "ALL MY PROJECTS ARE OPEN SOURCE!",
 		
-		"github": "More than 530 contributions in the last year on {0}!",
-		"pastebin": "More than 31,500 unique views in the last three years on {0}!",
+		"github": "More than 580 contributions in the last year on {0}!",
+		"pastebin": "More than 31,800 unique views in the last three years on {0}!",
 		
 		"prj_1_0": "The game {0} was developed in C# and is based on an epic space battle with skills and different artificial intelligence enemies according to the elapsed time in game.",
 		"prj_1_1": "The main idea is to entertain the players with funny teacher (my teachers) faces as characters/enemies, and other stuff like score and skills.",
@@ -144,9 +144,12 @@ let Translations = {
 		"prj_3_1": "The aim of the game is not to let the aliens get in the Earth. You have some features to help you with it.",
 		"prj_3_2": "The game is classified as a Real-Time Strategy (RTS) Indie game, because, besides the fact it's a Tower Defense (TD) game, few monetary resources were needed for its development. This game was developed in one week.",
 
-		"prj_4_0": "The {0} is a documented RESTful API that allows developers to make bots for the Atelier801 forum.",
+		"prj_4_0": "The {0} is a documented RESTful API that allows developers to make bots for the Atelier801's forums.",
 		"prj_4_1": "It uses the most sophisticated techniques of performance boost to offer the best results for the developer.",
-		"prj_4_2": "It currently can perform 99% of the actions that a regular user could do using the interface."
+		"prj_4_2": "It currently can perform 99% of the actions that a regular user could do using the interface.",
+
+		"prj_5_0": "The {0} is a documented API that allows developers to make bots for the game Transformice.",
+		"prj_5_1": "Transfromage makes easier a big part of the work but does not support all the actions that a normal client can perform."
 	},
 	"BR": {
 		"me_0": "Meu nome é Tainã Romani Lautenschlager Donda, também conhecido por Lautenschlager ou Tai. Tenho " + age + " anos e atualmente estudo Ciência da Computação na Uninove, no Brasil. Também tenho formação técnica em informática obtida pela instituição de ensino ETEC Jaraguá.",
@@ -161,8 +164,8 @@ let Translations = {
 		
 		"open_source": "TODOS OS MEUS PROJETOS SÃO OPEN SOURCE!",
 		
-		"github": "Mais de 530 contribuições no último ano no {0}!",
-		"pastebin": "Mais de 31.500 visualizações individuais nos três últimos anos no {0}!",
+		"github": "Mais de 580 contribuições no último ano no {0}!",
+		"pastebin": "Mais de 31.800 visualizações individuais nos três últimos anos no {0}!",
 		
 		"prj_1_0": "O jogo {0} foi desenvolvido em C# e é baseado numa épica batalha espacial com habilidads e diferentes inimigos de inteligência artificial de acordo com o tempo de jogo.",
 		"prj_1_1": "A ideia principal é entreter os jogadores com personagens/inimigos que têm o rosto dos professores (meus professores), e outras coisas como pontuação e habilidades.",
@@ -177,9 +180,12 @@ let Translations = {
 		"prj_3_1": "O objetivo do jogo é não deixar os aliens chegarem na Terra. Você terá alguns recursos para lhe ajudarem nisso.",
 		"prj_3_2": "O jogo está classificado no gênero Estratégia em Tempo Real (RTS), pois, além de ser um jogo de Defesa de Torres (TD), poucos recursos monetários foram utilizados para seu desenvolvimento. Esse jogo foi desenvolvido em uma semana.",
 
-		"prj_4_0": "A {0} é uma API RESTful documentada que permite desenvolvedores criarem bots para o fórum Atelier801.",
+		"prj_4_0": "A {0} é uma API RESTful documentada que permite desenvolvedores a criarem bots para os fóruns da Atelier801.",
 		"prj_4_1": "Ela usa as técnicas mais sofisticadas de boost de performance para oferecer os melhores resultados ao programador.",
-		"prj_4_2": "Atualmente ela pode realizar 99% das ações que um usuário regular também poderia utilizando a interface."
+		"prj_4_2": "Atualmente ela pode realizar 99% das ações que um usuário regular também poderia utilizando a interface.",
+
+		"prj_5_0": "A {0} é uma API documentada que permite desenvolvedores a criarem bots para o jogo Transformice.",
+		"prj_5_1": "Transfromage deixa uma grande parte do trabalho mais fácil, mas ainda não suporta todas as ações que um client normal pode realizar."
 	},
 	"ES": {
 		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo " + age + " años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
@@ -194,8 +200,8 @@ let Translations = {
 
 		"open_source": "TODOS MIS PROYECTOS SON OPEN SOURCE!",
 
-		"github": "Más de 530 contribuciones en el año pasado en {0}!",
-		"pastebin": "Más de 31.500 visualizaciones individuales en los tres últimos años en {0}!",
+		"github": "Más de 580 contribuciones en el año pasado en {0}!",
+		"pastebin": "Más de 31.800 visualizaciones individuales en los tres últimos años en {0}!",
 
 		"prj_1_0": "El juego {0} fue desarrollado en C# y es basado en una batalla épica con habilidades y diferentes enemigos con inteligencia artificial de acuerdo con el tiempo de juego.",
 		"prj_1_1": "La idea principal es entretener los jugadores con personajes/enemigos con la cara de profesores (mis profesores), y otras cosas como puntuación y habilidades.",
@@ -210,9 +216,12 @@ let Translations = {
 		"prj_3_1": "El objetivo del juego es no dejar que los aliens entren en la Tierra. Tendrá algunas cosas que te ayudaran con eso.",
 		"prj_3_2": "El juego está clasificado como un juego Indie de Estrategia en Tiempo Real (RTS), porque, además del hecho de que es un juego de Tower Defense, pocos recursos monetarios fueron necesarios para su desarrollo. Este juego fue desarrollado en una semana.",
 
-		"prj_4_0": "La {0} es una API documentada y RESTful que permite que desarrolladores hagan bots para el foro Atelier801.",
+		"prj_4_0": "La {0} es una API documentada y RESTful que permite que desarrolladores hagan bots para los foros del Atelier801.",
 		"prj_4_1": "Usa las más sofisticadas técnicas de aumento de rendimiento para ofrecer los mejores resultados al programador.",
-		"prj_4_2": "Actualmente puede hacer el 99% de las acciones que un usuario regular podría hacer con la interfaz."
+		"prj_4_2": "Actualmente puede hacer el 99% de las acciones que un usuario regular podría hacer con la interfaz.",
+
+		"prj_5_0": "{0} es una API documentada que permite que desarrolladores hagan bots para el juego Transformice.",
+		"prj_5_1": "Transfromage te facilita gran parte del trabajo pero no soporta todas las acciones que un cliente normal podría hacer en el juego."
 	}
 };
 
