@@ -107,7 +107,7 @@ var OneItem = function(prefix, id) {
 // Get year
 let today = new Date();
 let pastTime = new Date(971957400000);
-let age = Math.floor((new Date() - pastTime) / (1000 * 60 * 60 * 24) / 365);
+let age = Math.floor((today - pastTime) / (1000 * 60 * 60 * 24) / 365);
 
 // Translation system
 let LangName = {
