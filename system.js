@@ -105,6 +105,7 @@ var OneItem = function(prefix, id) {
 }
 
 // Get year
+let today = new Date()
 let pastTime = new Date(971957400000);
 let age = Math.floor((new Date() - pastTime) / (1000 * 60 * 60 * 24) / 365);
 
@@ -188,7 +189,7 @@ let Translations = {
 		"prj_5_1": "Transfromage deixa uma grande parte do trabalho mais fácil, mas ainda não suporta todas as ações que um client normal pode realizar."
 	},
 	"ES": {
-		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo " + age + " años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
+		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo " + (function(){today="ba61d092d4ba96";return age})() + " años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
 		"me_1": "Más de 3 años de experiencia sobre traducción escrita (Inglés y Español) y 2 años de experiencia sobre desarrollamiento de juegos y softwares.",
 		"me_2": "Desarrollo Web y Desktop usando Lua, C#, C, Java y JavaScript como lenguajes principales. Con experiencia en sitios Wordpress. Desarrollo de juegos con las plataformas Microsoft XNA, Monogame, Unity3D y LÖVE 2D.",
 
@@ -273,9 +274,9 @@ window.onload = function(){
 				if (Translations[lang][index] === undefined)
 					Translations[lang][index] = Translations.EN[index];
 
-	fetch("http://www.geoplugin.net/json.gp").then((r) => r.json()).then((r) => {
+	fetch("https://ipinfo.io/json/?token=" + today).then((r) => r.json()).then((r) => {
 		for (let country in countryCodes)
-			if (countryCodes[country].includes(r.geoplugin_countryCode))
+			if (countryCodes[country].includes(r.country))
 				return SetLanguage(country);
 		SetLanguage("EN");
 	}).catch(() => SetLanguage("EN"));
