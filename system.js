@@ -1,4 +1,4 @@
-// Tab open/close
+﻿// Tab open/close
 var Tab = function(element) {
 	var expand = element.style.width == "" || element.style.width == "70px";
 
@@ -123,7 +123,7 @@ let Translations = {
 		"title_me": "About me",
 		"title_prog": "Programming Languages",
 		"title_prj": "Projects",
-		"title_lang": "Idioms",
+		"title_lang": "Languages",
 		"title_contact": "Contact me",
 		
 		"open_source": "ALL MY PROJECTS ARE OPEN SOURCE!",
