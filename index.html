@@ -12,10 +12,16 @@
 
 	<body>
 		<!--Idiom-->
-		<div class="window">
-			<img onclick="SetLanguage('EN');" id="change_lang" src="content/flag_en.jpg" alt="English">
-			<img onclick="SetLanguage('BR');" id="change_lang" src="content/flag_br.jpg" alt="Português">
-			<img onclick="SetLanguage('ES');" id="change_lang" src="content/flag_es.jpg" alt="Español">
+		<img id="change_lang" class="light" style="width:5%;margin-bottom:30px" src="content/flag_en.jpg" alt="Idiom">
+		<div id="window" class="window">
+			<div class="smooth-shape window-content">
+				<div class="smooth-top window-header">
+					<h2><span translation-index="title_lang"></span></h2>
+				</div>
+				<img onclick="SetLanguage('EN');" id="change_lang" src="content/flag_en.jpg" class="light" alt="English">
+				<img onclick="SetLanguage('BR');" id="change_lang" src="content/flag_br.jpg" class="light" alt="Português">
+				<img onclick="SetLanguage('ES');" id="change_lang" src="content/flag_es.jpg" class="light" alt="Español">
+			</div>
 		</div>
 
 		<br>
