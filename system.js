@@ -247,14 +247,9 @@ var SetLanguage = function(language) {
 		text.innerHTML = content;
 	}
 	
-	let lang = language.toLowerCase();
-	// Change flag
-	var flag = document.getElementById("change_lang");
-	flag.src = "content/flag_" + lang + ".jpg";
-
-	// Change pdf
+		// Change pdf
 	var pdf = document.getElementById("cv");
-	pdf.href = "content/cv_" + lang + ".pdf";
+	pdf.href = "content/cv_" + language.toLowerCase() + ".pdf";
 
 	CloseWindow();
 }
@@ -280,18 +275,6 @@ window.onload = function(){
 				return SetLanguage(country);
 		SetLanguage("EN");
 	}).catch(() => SetLanguage("EN"));
-
-	// Based on w3schools' modal
-	var eWindow = document.getElementById("window");
-	var window_button = document.getElementById("change_lang");
-
-	window_button.onclick = function() {
-		eWindow.style.display = "block";
-	}
-	window.onclick = function(e) {
-		if (e.target == eWindow)
-			eWindow.style.display = "none";
-	}
 }
 
 // From Coderwall
