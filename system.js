@@ -250,11 +250,7 @@ var SetLanguage = function(language) {
 		// Change pdf
 	var pdf = document.getElementById("cv");
 	pdf.href = "content/cv_" + language.toLowerCase() + ".pdf";
-
-	CloseWindow();
 }
-
-var CloseWindow = () => document.getElementById("window").style.display = "none";
 
 var countryCodes = {
 	"ES": ["ES", "GQ", "CU", "PR", "DO", "MX", "GT", "HN", "SV", "NI", "CR", "PA", "CO", "VE", "EC", "PE", "BO", "CL", "AR", "PY", "UY"],
