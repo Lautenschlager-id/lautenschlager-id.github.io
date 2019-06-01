@@ -122,7 +122,7 @@ let Translations = {
 		"me_2": "Web and Desktop development using Lua, C#, C, Java, and JavaScript as main languages. Experienced with Wordpress websites. Game development using the platforms Microsoft XNA, Monogame, Unity3D and LÖVE 2D.",
 		
 		"title_me": "About me",
-		"title_prog": "Programming Languages",
+		"title_prog": "Languages per Project",
 		"title_prj": "Projects",
 		"title_lang": "Languages",
 		"title_contact": "Contact me",
@@ -158,7 +158,7 @@ let Translations = {
 		"me_2": "Desenvolvimento Web e Desktop com o uso de Lua, C#, C, Java e JavaScript como linguagens principais. Com experiência em sites Wordpress. Desenvolvimento de jogos utilizando as plataformas Microsoft XNA, Monogame, Unity3D e LÖVE 2D.",
 		
 		"title_me": "Sobre mim",
-		"title_prog": "Linguagens de Programação",
+		"title_prog": "Linguagens por Projeto",
 		"title_prj": "Projetos",
 		"title_lang": "Idiomas",
 		"title_contact": "Contate-me",
@@ -194,7 +194,7 @@ let Translations = {
 		"me_2": "Desarrollo Web y Desktop usando Lua, C#, C, Java y JavaScript como lenguajes principales. Con experiencia en sitios Wordpress. Desarrollo de juegos con las plataformas Microsoft XNA, Monogame, Unity3D y LÖVE 2D.",
 
 		"title_me": "Sobre mi",
-		"title_prog": "Lenguajes de Programación",
+		"title_prog": "Lenguajes por Proyecto",
 		"title_prj": "Proyectos",
 		"title_lang": "Idiomas",
 		"title_contact": "Contáctame",
