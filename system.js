@@ -8,7 +8,7 @@ var Tab = function(element) {
 	//});
 	if (expand)
 		setTimeout(function(){
-			element.scrollIntoView();
+			element.scrollIntoView({ behavior: "smooth" });
 		}, 1500)
 
 	ToggleContainer(element, expand);
@@ -265,12 +265,13 @@ window.onload = function(){
 				if (Translations[lang][index] === undefined)
 					Translations[lang][index] = Translations.EN[index];
 
+	SetLanguage("EN");
 	fetch("https://ipinfo.io/json/?token=" + today).then((r) => r.json()).then((r) => {
 		for (let country in countryCodes)
 			if (countryCodes[country].includes(r.country))
 				return SetLanguage(country);
-		SetLanguage("EN");
-	}).catch(() => SetLanguage("EN"));
+		//SetLanguage("EN");
+	})//.catch(() => SetLanguage("EN"));
 }
 
 // From Coderwall
