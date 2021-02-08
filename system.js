@@ -17,16 +17,16 @@ var Tab = function(element) {
 // Container show/hide
 var ToggleContainer = function(element, expand) {
 	var container = element.parentNode.querySelector("div");
-	
+
 	if (expand)
 	{
 		ExpandInfographic(element.parentNode.getElementsByClassName("infographic"));
-		
+
 		container.style.animationDuration = ".8s";
 		container.style.animationName = "expand";
 		container.classList.add("visible");
 		container.classList.remove("hidden");
-	}	
+	}
 	else
 	{
 		var imgs = element.parentNode.querySelectorAll("img:not([ignore])")
@@ -64,10 +64,10 @@ var ExpandInfographic = function(graphics) {
 			for (var i = 0; i < graphics.length; i++)
 				if (graphic.length < graphics.length)
 					graphic[i] = graphics[i].getAttribute("style").replace(/width:(calc\(.+\));/, "$1");
-	
+
 		for (var i = 0; i < graphics.length; i++)
 			graphics[i].style.width = "0px";
-		
+
 		setTimeout(function(){
 			for (var i = 0; i < graphics.length; i++)
 			{
@@ -83,16 +83,16 @@ let items = {};
 var OneItem = function(prefix, id) {
 	var button = document.getElementById(`btn_${prefix}_${id}`);
 	button.style.backgroundColor = (prefix == "flag" ? "#000000" : "#386A9B");
-	
+
 	var object = document.getElementById(`${prefix}_${id}`);
 	object.classList.remove("hidden");
-	
+
 	if (!items[prefix])
 		items[prefix] = [];
-	
+
 	if (items[prefix].indexOf(id) == -1)
 		items[prefix].push(id);
-	
+
 	for (var item_id of items[prefix])
 		if (item_id != id)
 		{
@@ -117,30 +117,30 @@ let LangName = {
 }
 let Translations = {
 	"EN": {
-		"me_0": "My name is Tainã Romani Lautenschlager Donda, also known as Lautenschlager or Tai. I am " + age + " and I am currently studying Computer Science at Uninove, in Brazil. I also have an informatic technician degree obtained in the educational institution ETEC Jaraguá.",
+		"me_0": "My name is Tai Lautenschlager, also known as Lautenschlager or Tai. I am " + age + " and I am currently studying Computer Science at Uninove, in Brazil. I also have an informatic technician degree obtained in the educational institution ETEC Jaraguá.",
 		"me_1": "More than 3 years of experience with written translations (English and Spanish) and 2 years of experience with game and software development.",
 		"me_2": "Web and Desktop development using Lua, C#, C, Java, and JavaScript as main languages. Experienced with Wordpress websites. Game development using the platforms Microsoft XNA, Monogame, Unity3D and LÖVE 2D.",
-		
+
 		"title_me": "About me",
 		"title_prog": "Languages per Project",
 		"title_prj": "Projects",
 		"title_lang": "Languages",
 		"title_contact": "Contact me",
-		
+
 		"open_source": "ALL MY PROJECTS ARE OPEN SOURCE!",
-		
+
 		"github": "More than 580 contributions in the last year on {0}!",
 		"pastebin": "More than 31,800 unique views in the last three years on {0}!",
-		
+
 		"prj_1_0": "The game {0} was developed in C# and is based on an epic space battle with skills and different artificial intelligence enemies according to the elapsed time in game.",
 		"prj_1_1": "The main idea is to entertain the players with funny teacher (my teachers) faces as characters/enemies, and other stuff like score and skills.",
 		"prj_1_2": "The game is classified as an Action Indie game, because, besides the fact it's a Shooter game, few monetary resources were needed for its development, also only two people worked on that: the developer and a volunteer for the graphic drawings.",
-		
+
 		"prj_2_0": "The {0} is a Discord bot with several features, more than 60 special and very effective commands to manage more than 40 translators and 150 users.",
 		"prj_2_1": "Here are some commands for the public:",
 		"prj_2_2": "This is how the team receives a request:",
 		"prj_2_3": "This is how the requester receives the translation:",
-		
+
 		"prj_3_0": "The game {0} was developed in C# and is based on several other Tower Defense (TD) games, but with an improved difficulty system and an environment that constantly excites the player.",
 		"prj_3_1": "The aim of the game is not to let the aliens get in the Earth. You have some features to help you with it.",
 		"prj_3_2": "The game is classified as a Real-Time Strategy (RTS) Indie game, because, besides the fact it's a Tower Defense (TD) game, few monetary resources were needed for its development. This game was developed in one week.",
@@ -153,21 +153,21 @@ let Translations = {
 		"prj_5_1": "Transfromage makes easier a big part of the work but does not support all the actions that a normal client can perform."
 	},
 	"BR": {
-		"me_0": "Meu nome é Tainã Romani Lautenschlager Donda, também conhecido por Lautenschlager ou Tai. Tenho " + age + " anos e atualmente estudo Ciência da Computação na Uninove, no Brasil. Também tenho formação técnica em informática obtida pela instituição de ensino ETEC Jaraguá.",
+		"me_0": "Meu nome é Tai Lautenschlager, também conhecido por Lautenschlager ou Tai. Tenho " + age + " anos e atualmente estudo Ciência da Computação na Uninove, no Brasil. Também tenho formação técnica em informática obtida pela instituição de ensino ETEC Jaraguá.",
 		"me_1": "Mais de 3 anos de experiência com traduções escritas (Inglês e Espanhol) e 2 anos de experiência com desenvolvimento de jogos e software.",
 		"me_2": "Desenvolvimento Web e Desktop com o uso de Lua, C#, C, Java e JavaScript como linguagens principais. Com experiência em sites Wordpress. Desenvolvimento de jogos utilizando as plataformas Microsoft XNA, Monogame, Unity3D e LÖVE 2D.",
-		
+
 		"title_me": "Sobre mim",
 		"title_prog": "Linguagens por Projeto",
 		"title_prj": "Projetos",
 		"title_lang": "Idiomas",
 		"title_contact": "Contate-me",
-		
+
 		"open_source": "TODOS OS MEUS PROJETOS SÃO OPEN SOURCE!",
-		
+
 		"github": "Mais de 580 contribuições no último ano no {0}!",
 		"pastebin": "Mais de 31.800 visualizações individuais nos três últimos anos no {0}!",
-		
+
 		"prj_1_0": "O jogo {0} foi desenvolvido em C# e é baseado numa épica batalha espacial com habilidads e diferentes inimigos de inteligência artificial de acordo com o tempo de jogo.",
 		"prj_1_1": "A ideia principal é entreter os jogadores com personagens/inimigos que têm o rosto dos professores (meus professores), e outras coisas como pontuação e habilidades.",
 		"prj_1_2": "O jogo está classificado no gênero Indie de Ação, pois, além de ser um jogo de tiro, poucos recursos monetários foram utilizados para sua produção, além de uma quantidade ínfima de pessoas (o desenvolvedor e um voluntário para desenho gráfico).",
@@ -176,7 +176,7 @@ let Translations = {
 		"prj_2_1": "Aqui estão alguns comandos para o público:",
 		"prj_2_2": "Assim é como a equipe recebe um pedido:",
 		"prj_2_3": "Assim é como o destinatário recebe a tradução:",
-		
+
 		"prj_3_0": "O jogo {0} foi desenvolvido em C# e é baseado em vários outros jogos de Defesa de Torres (TD), mas com um sistema de dificuldade melhorado e um ambiente que constantemente deixa o jogador empolgado.",
 		"prj_3_1": "O objetivo do jogo é não deixar os aliens chegarem na Terra. Você terá alguns recursos para lhe ajudarem nisso.",
 		"prj_3_2": "O jogo está classificado no gênero Estratégia em Tempo Real (RTS), pois, além de ser um jogo de Defesa de Torres (TD), poucos recursos monetários foram utilizados para seu desenvolvimento. Esse jogo foi desenvolvido em uma semana.",
@@ -189,7 +189,7 @@ let Translations = {
 		"prj_5_1": "Transfromage deixa uma grande parte do trabalho mais fácil, mas ainda não suporta todas as ações que um client normal pode realizar."
 	},
 	"ES": {
-		"me_0": "Mi nombre es Tainã Romani Lautenschlager Donda, también conocido por Lautenschlager o Tai. Tengo " + (function(){today="ba61d092d4ba96";return age})() + " años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
+		"me_0": "Mi nombre es Tai Lautenschlager, también conocido por Lautenschlager o Tai. Tengo " + (function(){today="ba61d092d4ba96";return age})() + " años y actualmente estoy estudiando Ciencias de la Computación en Uninove, Brasil. También tengo formación técnica en informática obtenida en la institución educativa ETEC Jaraguá.",
 		"me_1": "Más de 3 años de experiencia sobre traducción escrita (Inglés y Español) y 2 años de experiencia sobre desarrollamiento de juegos y softwares.",
 		"me_2": "Desarrollo Web y Desktop usando Lua, C#, C, Java y JavaScript como lenguajes principales. Con experiencia en sitios Wordpress. Desarrollo de juegos con las plataformas Microsoft XNA, Monogame, Unity3D y LÖVE 2D.",
 
@@ -232,21 +232,21 @@ var GetTranslation = (index) => Translations[CurrentLanguage][index];
 
 var SetLanguage = function(language) {
 	CurrentLanguage = language;
-	
+
 	// Translation
 	var texts = document.querySelectorAll("*[translation-index]");
 	for (var text of texts) {
 		var index = text.attributes.getNamedItem("translation-index").value;
 		var format = text.attributes.getNamedItem("format");
-		
+
 		var content = Translations[CurrentLanguage][index];
-		
+
 		if (format)
 			content = content.format(format.value);
 
 		text.innerHTML = content;
 	}
-	
+
 		// Change pdf
 	var pdf = document.getElementById("cv");
 	pdf.href = "content/cv_" + language.toLowerCase() + ".pdf";
